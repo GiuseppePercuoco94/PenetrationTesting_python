@@ -3,7 +3,7 @@
 import socket
 
 
-client_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM,)
+client_sock = socket.socket(socket.AF_INET, socket.SOCK_STREAM)
 host = socket.gethostname()
 port = 8888
 client_sock.connect((host,port))
